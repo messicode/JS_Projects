@@ -1,0 +1,44 @@
+<html>
+    <style>
+        #c{
+            background-image: url('snake.jpeg');
+            border: 20px groove #0e0750;
+        }
+        #d{
+            background-image: url('score.png');
+            width: 200px;
+            height: auto;
+            position:relative;
+            top:-500px;
+            left:10px;
+        }
+        #sc{
+            background-color: cornsilk;
+            text-align: center;
+            font-style: bold;
+            color: chocolate;
+            font-size: 250%;
+            width: 200px;
+            height: 50px;
+            position:relative;
+            top:-470px;
+            left:-193px;
+            border:5px inset chocolate;
+
+        }
+    </style>
+    <head>
+        <title>
+            Snake Game
+        </title>
+    </head>
+    <body>  
+        <div>
+            <canvas id="c">
+            </canvas>
+            <img id="d" src="score.png">
+            <textarea id="sc" readonly></textarea>
+        </div>
+        <script src="snake.js"></script>
+    </body>
+</html>
